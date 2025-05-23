@@ -1,0 +1,12 @@
+body{
+    background-color: #1A1716;
+}
+.app-grid-layout {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+        "sidebar header"
+        "sidebar main";
+    min-height: 100vh;
+}

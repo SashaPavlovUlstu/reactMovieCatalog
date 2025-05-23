@@ -1,0 +1,35 @@
+.title{
+  font-size: 14px;
+  color: #ADA89F;
+  margin-bottom: 4px;
+}
+.supTitle{
+  color: #ADA89F;
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+.card{
+  padding-top: 12px;
+  padding-left:12px;
+  display: flex;
+  flex-direction: column;
+  max-width: 364px;
+  border-radius: 8px;
+  border: 1px solid #606060;
+}
+.image{
+  max-width: 350px;
+  border-radius: 4px;
+  margin-bottom: 11px;
+  object-fit: cover;
+}
+@media (max-width: 1780px){
+  .image{
+    max-width: 450px;
+  }
+  .card{
+    max-width: 464px;
+    padding:6px 6px 6px
+  }
+
+}

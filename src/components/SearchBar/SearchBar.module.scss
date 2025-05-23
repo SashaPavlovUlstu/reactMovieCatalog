@@ -1,0 +1,28 @@
+.searchBarDiv{
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 42px;
+  margin-bottom: 26px;
+  margin-left: 28px;
+  max-width:248px;
+}
+.search-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.searchInput {
+  flex-grow: 1;
+  padding-left: 0;
+  margin-left:10px;
+  background-color:transparent;
+  border:none;
+  color: #ADA89F;
+}
+
+.searchInput::placeholder {
+  padding-left: 28px;
+  color: #ADA89F;
+}

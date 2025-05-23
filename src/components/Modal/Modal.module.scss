@@ -1,0 +1,79 @@
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal.active {
+  display: flex;
+  color: black;
+  justify-content: center;
+  align-items: center;
+}
+.modalContent {
+  padding: 25px;
+  border-radius: 16px;
+  max-width: 660px;
+  border:1px solid #575757;
+  background-color: #1A1716;
+}
+.title{
+  color: white;
+  line-height: 32px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.textArea{
+  background: inherit;
+  border:1px solid #575757;
+  border-radius: 8px;
+  color: white;
+  margin-bottom: 24px;
+}
+.button{
+  background: #FF4800;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  max-width: 100px;
+  padding: 10px;
+  text-align: center;
+  margin-inline: auto;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.wrapperItem{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap:10px;
+  h6{
+    font-size: 14px;
+    color:#ADA89F;
+  }
+}
+.supTitle{
+  line-height: 20px;
+  font-size: 14px;
+  color:#ADA89F;
+}
+.input{
+  background-color: #1A1716;
+  color:white;
+  height:26px;
+  border: 1px solid #606060;
+  border-radius: 8px;
+  max-width: 294px;
+
+}
+.inputWrapper{
+  display: flex;
+  max-width:612px;
+  gap: 16px;
+}

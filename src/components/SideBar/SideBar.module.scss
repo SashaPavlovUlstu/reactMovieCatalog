@@ -1,0 +1,15 @@
+.sideBar {
+  margin-top:24px;
+  max-width: 280px;
+  padding-right:32px;
+  display: flex;
+  flex-direction: column;
+  grid-area: sidebar;
+  border-right: 1px solid #575757;
+}
+@media (max-width: 1700px){
+  .sideBar {
+    max-width: 200px;
+  }
+
+}
